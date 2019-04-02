@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+	<title>Untitled Test Suite</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Invalid False Value</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:4567/<datalist><option>http://localhost:4567/</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>name=True Symbol<datalist><option>name=True Symbol</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Create Truth Table'])[1]/preceding::input[3]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::input[3]</option><option>//input[@name='True Symbol']</option><option>//input</option><option>css=input[name="True Symbol"]</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=True Symbol<datalist><option>name=True Symbol</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Create Truth Table'])[1]/preceding::input[3]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::input[3]</option><option>//input[@name='True Symbol']</option><option>//input</option><option>css=input[name="True Symbol"]</option></datalist></td><td>a</td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::form[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::form[1]</option><option>//form[@action='/genTable']</option><option>//form</option><option>css=form</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>name=False Symbol<datalist><option>name=False Symbol</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Create Truth Table'])[1]/preceding::input[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::input[2]</option><option>//input[@name='False Symbol']</option><option>//input[2]</option><option>css=input[name="False Symbol"]</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=False Symbol<datalist><option>name=False Symbol</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Create Truth Table'])[1]/preceding::input[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::input[2]</option><option>//input[@name='False Symbol']</option><option>//input[2]</option><option>css=input[name="False Symbol"]</option></datalist></td><td>bb</td>
+</tr>
+<tr><td>click</td><td>name=Size<datalist><option>name=Size</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Create Truth Table'])[1]/preceding::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::input[1]</option><option>//input[@name='Size']</option><option>//input[3]</option><option>css=input[name="Size"]</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=Size<datalist><option>name=Size</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Create Truth Table'])[1]/preceding::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::input[1]</option><option>//input[@name='Size']</option><option>//input[3]</option><option>css=input[name="Size"]</option></datalist></td><td>3</td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::button[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::button[1]</option><option>//button</option><option>css=button</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Check Default Parameters</td></tr>
+</thead>
+<tbody>
+<tr><td></td><td><datalist><option></option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::button[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::button[1]</option><option>//button</option><option>css=button</option></datalist></td><td>AND</td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Check Invalid Page</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:4567/meow<datalist><option>http://localhost:4567/meow</option></datalist></td><td>404</td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Check Logic</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:4567/<datalist><option>http://localhost:4567/</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=True Symbol<datalist><option>name=True Symbol</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Show truth table'])[1]/preceding::input[3]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::input[3]</option><option>//input[@name='True Symbol']</option><option>//input</option><option>css=input[name="True Symbol"]</option></datalist></td><td>a</td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::form[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::form[1]</option><option>//form[@action='/genTable']</option><option>//form</option><option>css=form</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>name=False Symbol<datalist><option>name=False Symbol</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Show truth table'])[1]/preceding::input[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::input[2]</option><option>//input[@name='False Symbol']</option><option>//input[2]</option><option>css=input[name="False Symbol"]</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=False Symbol<datalist><option>name=False Symbol</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Show truth table'])[1]/preceding::input[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::input[2]</option><option>//input[@name='False Symbol']</option><option>//input[2]</option><option>css=input[name="False Symbol"]</option></datalist></td><td>b</td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::form[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::form[1]</option><option>//form[@action='/genTable']</option><option>//form</option><option>css=form</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>name=Size<datalist><option>name=Size</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Show truth table'])[1]/preceding::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::input[1]</option><option>//input[@name='Size']</option><option>//input[3]</option><option>css=input[name="Size"]</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=Size<datalist><option>name=Size</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Show truth table'])[1]/preceding::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::input[1]</option><option>//input[@name='Size']</option><option>//input[3]</option><option>css=input[name="Size"]</option></datalist></td><td>3</td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::form[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::form[1]</option><option>//form[@action='/genTable']</option><option>//form</option><option>css=form</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::button[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::button[1]</option><option>//button</option><option>css=button</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Check Valid Table NOR</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:4567/genTable?True+Symbol=a&amp;False+Symbol=b&amp;Size=3<datalist><option>http://localhost:4567/genTable?True+Symbol=a&amp;False+Symbol=b&amp;Size=3</option></datalist></td><td>NOR</td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Check Valid Table NAND</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:4567/genTable?True+Symbol=a&amp;False+Symbol=b&amp;Size=3<datalist><option>http://localhost:4567/genTable?True+Symbol=a&amp;False+Symbol=b&amp;Size=3</option></datalist></td><td>NAND</td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Check Valid Table AND</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:4567/genTable?True+Symbol=a&amp;False+Symbol=b&amp;Size=3<datalist><option>http://localhost:4567/genTable?True+Symbol=a&amp;False+Symbol=b&amp;Size=3</option></datalist></td><td>AND</td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Check Valid Table OR</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:4567/genTable?True+Symbol=a&amp;False+Symbol=b&amp;Size=3<datalist><option>http://localhost:4567/genTable?True+Symbol=a&amp;False+Symbol=b&amp;Size=3</option></datalist></td><td>OR</td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Check Back to Main After Table</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:4567/<datalist><option>http://localhost:4567/</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>name=True Symbol<datalist><option>name=True Symbol</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Show truth table'])[1]/preceding::input[3]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::input[3]</option><option>//input[@name='True Symbol']</option><option>//input</option><option>css=input[name="True Symbol"]</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=True Symbol<datalist><option>name=True Symbol</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Show truth table'])[1]/preceding::input[3]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::input[3]</option><option>//input[@name='True Symbol']</option><option>//input</option><option>css=input[name="True Symbol"]</option></datalist></td><td>a</td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::form[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::form[1]</option><option>//form[@action='/genTable']</option><option>//form</option><option>css=form</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>name=False Symbol<datalist><option>name=False Symbol</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Show truth table'])[1]/preceding::input[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::input[2]</option><option>//input[@name='False Symbol']</option><option>//input[2]</option><option>css=input[name="False Symbol"]</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=False Symbol<datalist><option>name=False Symbol</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Show truth table'])[1]/preceding::input[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::input[2]</option><option>//input[@name='False Symbol']</option><option>//input[2]</option><option>css=input[name="False Symbol"]</option></datalist></td><td>b</td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::form[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::form[1]</option><option>//form[@action='/genTable']</option><option>//form</option><option>css=form</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>name=Size<datalist><option>name=Size</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Show truth table'])[1]/preceding::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::input[1]</option><option>//input[@name='Size']</option><option>//input[3]</option><option>css=input[name="Size"]</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=Size<datalist><option>name=Size</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Show truth table'])[1]/preceding::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::input[1]</option><option>//input[@name='Size']</option><option>//input[3]</option><option>css=input[name="Size"]</option></datalist></td><td>3</td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::form[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::form[1]</option><option>//form[@action='/genTable']</option><option>//form</option><option>css=form</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::button[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::button[1]</option><option>//button</option><option>css=button</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Back to main page<datalist><option>link=Back to main page</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='AND'])[1]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='OR'])[1]/preceding::a[1]</option><option>//a[contains(text(),'Back to main page')]</option><option>//a[contains(@href, '/')]</option><option>//a</option><option>css=a</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Check Back to Main Ater 404</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:4567/meow<datalist><option>http://localhost:4567/meow</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Back to Main<datalist><option>link=Back to Main</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Invalid Address'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='ERROR 404'])[1]/following::a[1]</option><option>//a[contains(text(),'Back to Main')]</option><option>//a[contains(@href, '/')]</option><option>//a</option><option>css=a</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Check Back to Main in Invalid Parameters</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:4567/<datalist><option>http://localhost:4567/</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::button[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::button[1]</option><option>//button</option><option>css=button</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Back to Main<datalist><option>link=Back to Main</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Invalid Parameters'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='ERROR'])[1]/following::a[1]</option><option>//a[contains(text(),'Back to Main')]</option><option>//a[contains(@href, '/')]</option><option>//a</option><option>css=a</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Check Main Page Refresh</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:4567/<datalist><option>http://localhost:4567/</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Reload main page<datalist><option>link=Reload main page</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Show truth table'])[1]/following::a[1]</option><option>//a[contains(text(),'Reload main page')]</option><option>//a[contains(@href, '/')]</option><option>//a</option><option>css=a</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Check Valid Parameters</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:4567/<datalist><option>http://localhost:4567/</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>name=True Symbol<datalist><option>name=True Symbol</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Show truth table'])[1]/preceding::input[3]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::input[3]</option><option>//input[@name='True Symbol']</option><option>//input</option><option>css=input[name="True Symbol"]</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=True Symbol<datalist><option>name=True Symbol</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Show truth table'])[1]/preceding::input[3]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::input[3]</option><option>//input[@name='True Symbol']</option><option>//input</option><option>css=input[name="True Symbol"]</option></datalist></td><td>a</td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::form[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::form[1]</option><option>//form[@action='/genTable']</option><option>//form</option><option>css=form</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>name=False Symbol<datalist><option>name=False Symbol</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Show truth table'])[1]/preceding::input[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::input[2]</option><option>//input[@name='False Symbol']</option><option>//input[2]</option><option>css=input[name="False Symbol"]</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=False Symbol<datalist><option>name=False Symbol</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Show truth table'])[1]/preceding::input[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::input[2]</option><option>//input[@name='False Symbol']</option><option>//input[2]</option><option>css=input[name="False Symbol"]</option></datalist></td><td>b</td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::form[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::form[1]</option><option>//form[@action='/genTable']</option><option>//form</option><option>css=form</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>name=Size<datalist><option>name=Size</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Show truth table'])[1]/preceding::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::input[1]</option><option>//input[@name='Size']</option><option>//input[3]</option><option>css=input[name="Size"]</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=Size<datalist><option>name=Size</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Show truth table'])[1]/preceding::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::input[1]</option><option>//input[@name='Size']</option><option>//input[3]</option><option>css=input[name="Size"]</option></datalist></td><td>3</td>
+</tr>
+<tr><td>click</td><td>//body<datalist><option>//body</option><option>css=body</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::button[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::button[1]</option><option>//button</option><option>css=button</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Show truth table button</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:4567<datalist><option>http://localhost:4567</option></datalist></td><td>Show truth table</td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Check Size</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:4567<datalist><option>http://localhost:4567</option></datalist></td><td>Size (2^x)</td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Check False symbol</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:4567<datalist><option>http://localhost:4567</option></datalist></td><td>False symbol</td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Check True symbol</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:4567<datalist><option>http://localhost:4567</option></datalist></td><td>True symbol</td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Open Main Page</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:4567<datalist><option>localhost:4567</option><option>https://localhost:4567</option><option>http://localhost:4567</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Non Integer Size</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:4567/<datalist><option>http://localhost:4567/</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>name=True Symbol<datalist><option>name=True Symbol</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Create Truth Table'])[1]/preceding::input[3]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::input[3]</option><option>//input[@name='True Symbol']</option><option>//input</option><option>css=input[name="True Symbol"]</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=True Symbol<datalist><option>name=True Symbol</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Create Truth Table'])[1]/preceding::input[3]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::input[3]</option><option>//input[@name='True Symbol']</option><option>//input</option><option>css=input[name="True Symbol"]</option></datalist></td><td>a</td>
+</tr>
+<tr><td>click</td><td>//body<datalist><option>//body</option><option>css=body</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>name=False Symbol<datalist><option>name=False Symbol</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Create Truth Table'])[1]/preceding::input[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::input[2]</option><option>//input[@name='False Symbol']</option><option>//input[2]</option><option>css=input[name="False Symbol"]</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=False Symbol<datalist><option>name=False Symbol</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Create Truth Table'])[1]/preceding::input[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::input[2]</option><option>//input[@name='False Symbol']</option><option>//input[2]</option><option>css=input[name="False Symbol"]</option></datalist></td><td>b</td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::form[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::form[1]</option><option>//form[@action='/genTable']</option><option>//form</option><option>css=form</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>name=Size<datalist><option>name=Size</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Create Truth Table'])[1]/preceding::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::input[1]</option><option>//input[@name='Size']</option><option>//input[3]</option><option>css=input[name="Size"]</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=Size<datalist><option>name=Size</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Create Truth Table'])[1]/preceding::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::input[1]</option><option>//input[@name='Size']</option><option>//input[3]</option><option>css=input[name="Size"]</option></datalist></td><td>a</td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::form[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::form[1]</option><option>//form[@action='/genTable']</option><option>//form</option><option>css=form</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::button[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::button[1]</option><option>//button</option><option>css=button</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">True and False Equal</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:4567/<datalist><option>http://localhost:4567/</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//body<datalist><option>//body</option><option>css=body</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>name=True Symbol<datalist><option>name=True Symbol</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Create Truth Table'])[1]/preceding::input[3]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::input[3]</option><option>//input[@name='True Symbol']</option><option>//input</option><option>css=input[name="True Symbol"]</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=True Symbol<datalist><option>name=True Symbol</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Create Truth Table'])[1]/preceding::input[3]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::input[3]</option><option>//input[@name='True Symbol']</option><option>//input</option><option>css=input[name="True Symbol"]</option></datalist></td><td>a</td>
+</tr>
+<tr><td>click</td><td>//body<datalist><option>//body</option><option>css=body</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>name=False Symbol<datalist><option>name=False Symbol</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Create Truth Table'])[1]/preceding::input[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::input[2]</option><option>//input[@name='False Symbol']</option><option>//input[2]</option><option>css=input[name="False Symbol"]</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=False Symbol<datalist><option>name=False Symbol</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Create Truth Table'])[1]/preceding::input[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::input[2]</option><option>//input[@name='False Symbol']</option><option>//input[2]</option><option>css=input[name="False Symbol"]</option></datalist></td><td>a</td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::form[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::form[1]</option><option>//form[@action='/genTable']</option><option>//form</option><option>css=form</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>name=Size<datalist><option>name=Size</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Create Truth Table'])[1]/preceding::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::input[1]</option><option>//input[@name='Size']</option><option>//input[3]</option><option>css=input[name="Size"]</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=Size<datalist><option>name=Size</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Create Truth Table'])[1]/preceding::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::input[1]</option><option>//input[@name='Size']</option><option>//input[3]</option><option>css=input[name="Size"]</option></datalist></td><td>3</td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::button[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::button[1]</option><option>//button</option><option>css=button</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Invalid Size Value</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:4567/<datalist><option>http://localhost:4567/</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>name=True Symbol<datalist><option>name=True Symbol</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Create Truth Table'])[1]/preceding::input[3]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::input[3]</option><option>//input[@name='True Symbol']</option><option>//input</option><option>css=input[name="True Symbol"]</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=True Symbol<datalist><option>name=True Symbol</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Create Truth Table'])[1]/preceding::input[3]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::input[3]</option><option>//input[@name='True Symbol']</option><option>//input</option><option>css=input[name="True Symbol"]</option></datalist></td><td>a</td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::form[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::form[1]</option><option>//form[@action='/genTable']</option><option>//form</option><option>css=form</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>name=False Symbol<datalist><option>name=False Symbol</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Create Truth Table'])[1]/preceding::input[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::input[2]</option><option>//input[@name='False Symbol']</option><option>//input[2]</option><option>css=input[name="False Symbol"]</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=False Symbol<datalist><option>name=False Symbol</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Create Truth Table'])[1]/preceding::input[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::input[2]</option><option>//input[@name='False Symbol']</option><option>//input[2]</option><option>css=input[name="False Symbol"]</option></datalist></td><td>b</td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::form[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::form[1]</option><option>//form[@action='/genTable']</option><option>//form</option><option>css=form</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>name=Size<datalist><option>name=Size</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Create Truth Table'])[1]/preceding::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::input[1]</option><option>//input[@name='Size']</option><option>//input[3]</option><option>css=input[name="Size"]</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=Size<datalist><option>name=Size</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Create Truth Table'])[1]/preceding::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::input[1]</option><option>//input[@name='Size']</option><option>//input[3]</option><option>css=input[name="Size"]</option></datalist></td><td>1</td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::button[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::button[1]</option><option>//button</option><option>css=button</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Back to Main<datalist><option>link=Back to Main</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Invalid Parameters'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='ERROR'])[1]/following::a[1]</option><option>//a[contains(text(),'Back to Main')]</option><option>//a[contains(@href, '/')]</option><option>//a</option><option>css=a</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Invalid True Value</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>http://localhost:4567/<datalist><option>http://localhost:4567/</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>name=True Symbol<datalist><option>name=True Symbol</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Create Truth Table'])[1]/preceding::input[3]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::input[3]</option><option>//input[@name='True Symbol']</option><option>//input</option><option>css=input[name="True Symbol"]</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=True Symbol<datalist><option>name=True Symbol</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Create Truth Table'])[1]/preceding::input[3]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::input[3]</option><option>//input[@name='True Symbol']</option><option>//input</option><option>css=input[name="True Symbol"]</option></datalist></td><td>aa</td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::form[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::form[1]</option><option>//form[@action='/genTable']</option><option>//form</option><option>css=form</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>name=False Symbol<datalist><option>name=False Symbol</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Create Truth Table'])[1]/preceding::input[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::input[2]</option><option>//input[@name='False Symbol']</option><option>//input[2]</option><option>css=input[name="False Symbol"]</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=False Symbol<datalist><option>name=False Symbol</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Create Truth Table'])[1]/preceding::input[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::input[2]</option><option>//input[@name='False Symbol']</option><option>//input[2]</option><option>css=input[name="False Symbol"]</option></datalist></td><td>b</td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::form[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::form[1]</option><option>//form[@action='/genTable']</option><option>//form</option><option>css=form</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>name=Size<datalist><option>name=Size</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Create Truth Table'])[1]/preceding::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::input[1]</option><option>//input[@name='Size']</option><option>//input[3]</option><option>css=input[name="Size"]</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=Size<datalist><option>name=Size</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Create Truth Table'])[1]/preceding::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::input[1]</option><option>//input[@name='Size']</option><option>//input[3]</option><option>css=input[name="Size"]</option></datalist></td><td>3</td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::button[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reload main page'])[1]/preceding::button[1]</option><option>//button</option><option>css=button</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
