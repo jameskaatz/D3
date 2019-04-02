@@ -1,0 +1,29 @@
+
+<html>
+<head> Dynamic Truth Table </head>
+<body>
+<table style = "width:10%">
+<tr>
+    <%x = size - 1%>
+    <%while x >=0 %>
+     <th><%=x%></th>
+     <%x -= 1%>
+    <%end%>
+    <th>AND</th>
+    <th>OR</th>
+    <th>NAND</th>
+    <th>NOR</th>
+    <th>SINGLETON</th>
+    <th>XOR</th>
+</tr>
+<%for x in (0..numRows - 1)%>
+<tr>
+        <%for i in (0..rows.length)%>
+        <td><%=rows[x][i]%></td>
+        <%end%>
+    
+</tr>
+<%end%>
+<a href = "/">Back to main page</a>
+</body>
+</html>
